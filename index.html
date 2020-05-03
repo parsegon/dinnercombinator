@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Dinner Combinator by Battlecard">
     <meta property="og:description" content="Sign up and get matched with another foundary each week for a virtual dinner over Zoom.">
-    <meta property="og:image" content="http://salesfreeagents.com/bg.png">
+    <meta property="og:image" content="http://dinnercombinator.com/preview.png">
     <meta property="og:url" content="http://dinnercombinator.com">
     <style>
     @import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,400i,600,600i,700,700i&display=swap');
     </style>
     <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
-    <link href="./style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/gvk4beu.css">
     <link rel="icon" href="./favicon.ico" type="image/ico" sizes="256x256">
     <title>Dinner Combinator | Get Dinner With Other Foundaries</title>
@@ -26,30 +25,88 @@
         width: 100%;
         height: 100vh;
         box-sizing:border-box;
+        font-family: "Brother 1816", "Brother-1816", brother-1816, Arial;
         text-align:center;
       }
 
       #logo {
         display:inline-block;
-        margin-top: 50px;
-        height: 50px;
+        margin-top: 40px;
+        height: 40px;
       }
 
       #battlecard {
         display:inline-block;
-        margin-top: 20px;
-        height: 30px;
+        margin-top:18px;
+        height: 24px;
       }
 
       #battlecard:hover {
         opacity:.5;
       }
+
+      h1 {
+        color:#FFAC4B;
+        font-family: "Ibarra Real Nova", Times;
+        font-weight: 600;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        color:black;
+        font-family: "Brother 1816", "Brother-1816", brother-1816, Arial;
+        font-weight: 300;
+        font-size: 19px;
+        margin-top: 0px;
+      }
+
+      .button {
+        padding: 12px 42px;
+        color:white;
+        font-weight: 600;
+        background-color:#FFAC4B;
+        display:inline-block;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        cursor:pointer;
+        text-decoration: none;
+      }
+
+      .button:hover {
+        opacity:.7;
+      }
+
+      #graphic {
+        height: 270px;
+
+      }
+
+      .notice {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        left:0px;
+        height: 40px;
+        padding-top: 8px;
+        box-sizing:border-box;
+        color:white;
+        background-color:#FFAC4B;
+      }
+
     </style>
   </head>
   <body>
     <img src="./logo.png" id="logo">
     <br>
     <a href="https://battlecard.com"><img src="./battlecard.png" id="battlecard"></a>
-
+    <h1>Virtual Dinners between Different Founding Teams</h1>
+    <h2>Sign up and get matched with another foundary each week for a virtual dinner over Zoom. </h2>
+    <a class="button" href="https://battlecard.com">Sign Up</a>
+    <br>
+    <img src="./graphic.png" id="graphic">
+    <div class="notice">*while Battlecard is a YCombinator W20 company, this project is not directly affiliated with YCombinator.</div>
   </body>
 </html>
